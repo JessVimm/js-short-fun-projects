@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+}
+
+.btn-container {
+  border: 2px solid greenyellow;
+  padding: 7px;
+  border-radius: 9px;
+  box-shadow: inset 0 23px 6px -19px rgba(118, 237, 27, 0.7);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 75px;
+  font-family: Kanit, sans-serif;
+  font-size: 25px;
+  color: rgb(166, 205, 108);
+  text-shadow: 0 2px 8px rgb(3, 223, 3);
+  background: linear-gradient(to top, rgb(103, 177, 13),rgb(9, 61, 2));
+  border-radius: 9px;
+  box-shadow: inset 0 22px 4px -19px rgba(118, 237, 27, 0.7), 0 12px 12px 0 rgba(51, 111, 4, 0.4);
+}
+
+button:hover {
+  background: linear-gradient(to bottom, rgb(103, 177, 13),rgb(9, 61, 2));
+}
+
+button:active {
+  transform: translateY(3px);
+  box-shadow: 0 6px 6px 0 rgba(51, 111, 4, 0.4)
+}
